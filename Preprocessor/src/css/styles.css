@@ -1,0 +1,83 @@
+@import "project.less";
+@import "smart-grid.less";
+
+body{
+    background-color:#641515;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color:#300d0d;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.header__title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.header__subtitle{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: #a78e8e;
+    font-size: 16px;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.menu__item{
+    
+    text-decoration: none;
+    /* text-align:; */
+    color: #a78e8e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    /* margin: 0 20px 0 0; */
+}
+
+.menu__item_active{
+    background: #54db5d;
+    border: 1px solid #54db5d;
+    border-radius: 2px;
+}
+
+/* 2 blok */
+
+.container_slider{
+    background-color:#300d0d;
+    height: 500px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+
+    /* width: auto; */
+}
+.column__row{
+    
+}
+.column__main_img {
+    width: 380px;
+    
+    border: 5px solid #d4c9c9;
+    
+}
